@@ -1,0 +1,246 @@
+.coffe {
+  padding: 20px;
+  position: relative;
+}
+.coffe_out {
+  background-image: url(./imges/Rectangle.svg);
+  background-blend-mode: overlay;
+  padding-top: 50px;
+  background-color: #f8f8f2;
+  padding-bottom: 50px;
+}
+.container {
+}
+.coffe_inner {
+  display: flex;
+  gap: 370px;
+  position: relative;
+}
+.coffe_inner::after {
+  content: "";
+  background-image: url(./imges/Group\ 3650.png);
+  width: 545px;
+  height: 591px;
+  display: inline-block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 140px;
+  left: 1260px;
+}
+.coffe::before {
+  content: "";
+  background-image: url(./imges/Vector\ bgc.png);
+  display: inline-block;
+  width: 216px;
+  height: 369px;
+  position: absolute;
+  bottom: 90px;
+  left: calc(50% - 900px);
+  top: 1600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.coffe_inner::before {
+  content: "";
+  background-image: url(./imges/Vector.png);
+  width: 402px;
+  left: -250px;
+  top: 800px;
+  height: 300px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+.coffe_left-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 35px;
+}
+.coffe_left-item {
+  color: #555;
+
+  font-size: 28px;
+  width: 230px;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+.coffe_left-item-2 {
+  color: #000;
+
+  font-size: 28px;
+
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+/* :right-------------------------------- */
+.coffe_right_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.coffe_right-item {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  flex-wrap: wrap;
+}
+.coffe_right-list_title {
+  color: #000;
+
+  font-size: 40px;
+
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+.coffe_right-list-img {
+}
+.coffe_right-item-list {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+.coffe_right-item-list-2 {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+.coffe_right-item-list-2 > li:nth-child(1) {
+  background-color: #0a775f;
+}
+.coffe_right-item-list-3 {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+.coffe_right-item-list-3 > li:nth-child(3) {
+  background-color: #0a775f;
+}
+.coffe_right-item-list-4 {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+.coffe_right-item-list-4 > li:nth-child(3) {
+  background-color: #0a775f;
+}
+.coffe_right-item-list-5 > li:nth-child(1) {
+  background-color: #0a775f;
+}
+.coffe_right-item-list-5 {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+
+.coffe_right-list_item {
+  background-color: #abdbd1;
+  width: 208px;
+  padding-top: 30px;
+  padding-left: 16px;
+  padding-right: 12px;
+  padding-bottom: 80px;
+  background-blend-mode: overlay;
+
+  flex-shrink: 0;
+}
+.coffe_right-item-list > li:nth-child(2) {
+  background-color: #0a775f;
+}
+.coffe_right-list_item-2 {
+  background-color: #0a775f;
+  width: 208px;
+  padding-top: 30px;
+  padding-left: 16px;
+  padding-right: 12px;
+  padding-bottom: 80px;
+}
+.coffe_right-item_list-title {
+  color: #333;
+
+  font-size: 24px;
+
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+.coffe_right-item_list-title-2 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+.coffe_right-list-item-text {
+  color: #333;
+  width: 180px;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.coffe_right-list-item-text-2 {
+  width: 180px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.coffe_main {
+  background-color: #c99b67;
+  width: 660px;
+  margin-top: 100px;
+  padding: 40px 20px;
+}
+.coffe_main-strong {
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fff;
+}
+.coffe_main-text {
+  margin-top: 14px;
+  width: 618px;
+
+  font-size: 24px;
+
+  font-weight: 500;
+  line-height: 34px;
+  color: #fff;
+}
+.coffe_right-main {
+}
+.coffe_main-span {
+  color: #333;
+
+  font-size: 24px;
+
+  font-weight: 500;
+  line-height: 34px;
+}
+.coffe_main-link {
+  padding: 16px 24px;
+  border-radius: 100px;
+  background: #0a775f;
+
+  text-decoration: none;
+  color: #fff;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 480px;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+  letter-spacing: 1px;
+}

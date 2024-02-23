@@ -1,0 +1,49 @@
+.quality {
+  padding: 20px;
+  margin-top: 140px;
+  position: relative;
+}
+.quality_out {
+  background-image: url(./imges/Rectangle.svg);
+  background-blend-mode: overlay;
+  background-color: #dda96d;
+  padding-top: 100px;
+  padding-bottom: 118px;
+}
+.container {
+}
+.quality_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quality_inner::before {
+}
+.quality_main {
+  margin-right: 38px;
+  margin-left: 80px;
+}
+.quality_title {
+  color: #fff;
+
+  font-size: 50px;
+
+  font-weight: 700;
+  width: 397px;
+  font-variant: all-small-caps;
+}
+.quality_text {
+  color: #fff;
+
+  font-size: 18px;
+  width: 639px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.quality_img {
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  left: calc(50% + 100px);
+  top: -70px;
+}

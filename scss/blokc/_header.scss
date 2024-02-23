@@ -1,0 +1,27 @@
+.site_header {
+  background-image: url(./imges/Rectangle.svg);
+  background-color: #f3d7b7;
+  background-blend-mode: overlay;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header_list {
+  list-style-type: none;
+  display: flex;
+}
+.header_item {
+  margin-right: 40px;
+}
+.header_item-link {
+  text-decoration: none;
+
+  color: #333;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}

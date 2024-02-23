@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(./imges/Rectangle.svg);
+  background-color: #f3d7b7;
+  background-blend-mode: overlay;
+}
+.container {
+}
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_logo {
+}
+.footer_list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.footer_item {
+}
+.footer_list-link {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.footer_list-2 {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.footer_item-2 {
+}
+.footer_list-link-2 {
+}
+.footer_list-img-2 {
+}

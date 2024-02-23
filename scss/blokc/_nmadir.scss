@@ -1,0 +1,75 @@
+.nmadir {
+  padding: 20px;
+}
+.nmadir_out {
+  background-image: url(./imges/Rectangle.svg);
+  background-blend-mode: overlay;
+  background-color: #dda96d;
+  height: 703px;
+  padding-top: 30px;
+}
+
+.nmadir_img {
+  top: 185px;
+  left: -45px;
+  position: absolute;
+}
+.nmadir_inner {
+  position: relative;
+  width: 1280px;
+  margin-right: 200px;
+}
+.nmadir_title {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+.nmadir_text {
+  color: #fff;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 581px;
+  margin-top: 10px;
+}
+.nmadir_list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nmadir_item {
+}
+.nmadir_list-img {
+  margin-top: 80px;
+  width: 433px;
+  height: 500px;
+}
+.nmadir_list-title {
+  color: #333;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+.nmadir_list-text {
+  color: #333;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 377px;
+}
